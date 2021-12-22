@@ -1,0 +1,25 @@
+﻿Feature ,Data Quality Isuue,Potential Handling
+ACLSWKR,Missing Value,Drop the column. Missing value>50%
+AHSCOL,Missing Value,Drop the column. High % of missing values
+AMJIND,Missing Value,Drop the column. Missing value>50%
+AMJOCC,Missing Value,Drop the column. Missing value>50%
+AREORGN,Missing Value,Imputation with mode value. As mode Freq is high
+AUNMEM,Missing Value,Drop the column. High % of missing values
+AUNTYPE,Missing Value,Drop the column. High % of missing values
+GRINREG,Missing Value,Drop the column. High % of missing values
+GRINST,Missing Value,Drop the column. High % of missing values
+MIGMTR1,Missing Value,Drop the column. Missing value>50%
+MIGMTR3,Missing Value,Drop the column. Missing value>50%
+MIGMTR4,Missing Value,Drop the column. Missing value>50%
+MIGSAME,Missing Value,Drop the column. Missing value>50%
+MIGSUN,Missing Value,Drop the column. High % of missing values
+PARENT,Missing Value,Drop the column. High % of missing values
+PEFNTVTY,Missing Value,Imputation with mode value. As mode Freq is high
+PEMNTVTY,Missing Value,Imputation with mode value. As mode Freq is high
+PENATVTY,Missing Value,Imputation with mode value. As mode Freq is high
+VETQVA,Missing Value,Drop the column. High % of missing values
+AHRSPAY,Outlier,Clamp Transformation- Within 2 Standard deviation from mean.
+CAPGAIN,Outlier,Clamp Transformation- Within 2 Standard deviation from mean.
+CAPLOSS,Outlier,Clamp Transformation- Within 2 Standard deviation from mean.
+DIVVAL,Outlier,Clamp Transformation- Within 2 Standard deviation from mean.
+MARSUPWT,Outlier,Clamp Transformation- Within 2 Standard deviation from mean.

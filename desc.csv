@@ -1,0 +1,43 @@
+Column_name,Data_Description,Data_class,Data_Scale,Data_Type,Domain
+AAGE,age,continious,ratio,int,Non negative Integers
+ACLSWKR,class of worker,categorical,nominal,string,Set of 8 string values
+ADTIND,industry code,categorical,nominal,int,"All Integers b/w [0,52]"
+ADTOCC,occupation code,categorical,nominal,int,"All Integers b/w [0,46]"
+AHGA,education,categorical,ordinal,string,Set of 17 string values
+AHRSPAY,wage per hour,continious,ratio,int,Non negative integers
+AHSCOL,enroll in edu inst last wk,categorical,ordinal,string,"[High school,College or university]"
+AMARITL,marital stat,categorical,nominal,string,Set of 7 string values
+AMJIND,major industry code,categorical,nominal,string,Set of 23 string values
+AMJOCC,major occupation code,categorical,nominal,string,Set of 14 string values
+ARACE,race,categorical,nominal,string,Set of 5 string values
+AREORGN,hispanic origin,categorical,nominal,string,Set of 9 string values
+ASEX,sex,categorical,nominal,string,"[Female,Male]"
+AUNMEM,member of a labor union,categorical,nominal,string,"[Yes,No]"
+AUNTYPE,reason for unemployment,categorical,nominal,string,Set of 5 string values
+AWKSTAT,full or part time employment stat,categorical,nominal,string,Set of 8 string values
+CAPGAIN,capital gains,continious,ratio,int,Non negative Integers
+CAPLOSS,capital losses,continious,ratio,int,Non negative Integers
+DIVVAL,dividends from stocks,continious,ratio,int,Non negative Integers
+FILESTAT,tax filer stat,categorical,nominal,string,Set of 6 string values
+GRINREG,region of previous residence,categorical,nominal,string,Set of 5 string values
+GRINST,state of previous residence,categorical,nominal,string,Set of 49 string values
+HHDFMX,detailed household and family stat,categorical,nominal,string,Set of 38 string values
+HHDREL,detailed household summary in household,categorical,nominal,string,Set of 8 string values
+MARSUPWT,instance weight,continious,ratio,float,Non negative Float Values
+MIGMTR1,migration code-change in msa,categorical,nominal,string,Set of 8 string values
+MIGMTR3,migration code-change in reg,categorical,nominal,string,Set of 7 string values
+MIGMTR4,migration code-move within reg,categorical,nominal,string,Set of 8 string values
+MIGSAME,live in this house 1 year ago,categorical,nominal,string,"[Yes,No]"
+MIGSUN,migration prev res in sunbelt,categorical,nominal,string,"[Yes,No]"
+NOEMP,num persons worked for employer,continious,ratio,int,Non negative Integers
+PARENT,family members under 18,categorical,nominal,string,Set of 4 string values
+PEFNTVTY,country of birth father,categorical,nominal,string,Set of 42 string values
+PEMNTVTY,country of birth mother,categorical,nominal,string,Set of 42 string values
+PENATVTY,country of birth self,categorical,nominal,string,Set of 42 string values
+PRCITSHP,citizenship,categorical,nominal,string,Set of 5 string values
+SEOTR,own business or self employed,categorical,nominal,int,"[0,1,2]"
+VETQVA,fill inc questionnaire for veteran's admin,categorical,nominal,string,"[Yes,No]"
+VETYN,veterans benefits,categorical,nominal,int,"[0,1,2]"
+WKSWORK,weeks worked in year,continious,ratio,int,Non negative Integers
+YEAR,year,categorical,ordinal,int,"[94,95]"
+PTOTVALB,total person income,categorical,ordinal,string,"[- 50000. ,5000+.]"
